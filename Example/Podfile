@@ -1,0 +1,6 @@
+use_frameworks!
+target 'GDTMobKit_Tests' do
+  pod 'GDTMobKit', :path => '../'
+  
+  
+end
