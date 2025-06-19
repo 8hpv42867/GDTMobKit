@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'GDTMobKit'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'A short description of GDTMobKit.'
 
 # This description is used to generate tags and improve search results.
@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+#TODO: Add long description of the pod here.
                        DESC
 
   s.homepage         = 'https://github.com/8hpv42867/GDTMobKit'
@@ -31,7 +31,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'GDTMobKit/GDTMobKit.framework/Headers/*.{h}'
+  s.source_files = 'GDTMobKit/GDTMobSDK.framework/Headers/*.{h}'
   s.vendored_frameworks = 'GDTMobKit/*.framework'
   # s.resource_bundles = {
   #   'GDTMobKit' => ['GDTMobKit/Assets/*.png']
