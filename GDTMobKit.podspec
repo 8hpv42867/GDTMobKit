@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'GDTMobKit'
-  s.version          = '0.9.0'
+  s.version          = '0.10.0'
   s.summary          = 'A short description of GDTMobKit.'
 
 # This description is used to generate tags and improve search results.
@@ -31,7 +31,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'GDTMobKit/GDTMobSDK.xcframework/Headers/*.{h}'
+  #s.source_files = 'GDTMobKit/GDTMobSDK.xcframework/Headers/*.{h}'
   s.vendored_frameworks = 'GDTMobKit/*.xcframework'
   # s.resource_bundles = {
   #   'GDTMobKit' => ['GDTMobKit/Assets/*.png']
