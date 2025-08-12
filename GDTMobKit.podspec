@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'GDTMobKit'
-  s.version          = '0.10.0'
+  s.version          = '0.11.8'
   s.summary          = 'A short description of GDTMobKit.'
 
 # This description is used to generate tags and improve search results.
